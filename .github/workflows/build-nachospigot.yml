@@ -1,6 +1,8 @@
 name: NachoSpigot Build
 
-on: []
+on:
+  workflow_run:
+    branches: ["master"]
 
 jobs:
   build:
